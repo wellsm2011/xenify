@@ -1,47 +1,42 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+*.pydevproject
+.metadata
+.recommenders
+.gradle
+bin/
+tmp/
+target/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
 
-# Folder config file
-Desktop.ini
+# External tool builders
+.externalToolBuilders/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# CDT-specific
+.cproject
 
-# Windows shortcuts
-*.lnk
+# JDT-specific (Eclipse Java Development Tools)
+#.classpath
 
-# =========================
-# Operating System Files
-# =========================
+# PDT-specific
+.buildpath
 
-# OSX
-# =========================
+# sbteclipse plugin
+.target
 
-.DS_Store
-.AppleDouble
-.LSOverride
+# TeXlipse plugin
+.texlipse
 
-# Thumbnails
-._*
+# KDE
+.directory
+test.db
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Ignored projects
+tools/RemoteSystemsTempFiles/.project
